@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11FE140B1FD864CD00BF389E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE140A1FD864CD00BF389E /* AppDelegate.swift */; };
+		11FE14101FD864CD00BF389E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE140E1FD864CD00BF389E /* Main.storyboard */; };
+		11FE14121FD864CD00BF389E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11FE14111FD864CD00BF389E /* Assets.xcassets */; };
+		11FE14151FD864CD00BF389E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11FE14131FD864CD00BF389E /* LaunchScreen.storyboard */; };
+		11FE141D1FD8664000BF389E /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE141C1FD8664000BF389E /* TabBarController.swift */; };
+		11FE14211FD866AB00BF389E /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14201FD866AB00BF389E /* HomePage.swift */; };
+		11FE14231FD866C000BF389E /* AnswerListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14221FD866C000BF389E /* AnswerListPage.swift */; };
+		11FE14251FD866D000BF389E /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14241FD866D000BF389E /* ProfilePage.swift */; };
+		11FE14271FD866E500BF389E /* BasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14261FD866E500BF389E /* BasePage.swift */; };
+		11FE142B1FD86E7D00BF389E /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE142A1FD86E7D00BF389E /* FeedTableViewController.swift */; };
+		11FE142D1FD86F6C00BF389E /* BookmarkTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE142C1FD86F6C00BF389E /* BookmarkTableViewController.swift */; };
+		11FE142F1FD8712800BF389E /* NewQuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE142E1FD8712800BF389E /* NewQuestionTableViewController.swift */; };
+		11FE14311FD8757500BF389E /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14301FD8757500BF389E /* QuestionTableViewController.swift */; };
+		11FE14331FD87A1F00BF389E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14321FD87A1F00BF389E /* Extensions.swift */; };
+		11FE14351FD87AB600BF389E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14341FD87AB600BF389E /* Constants.swift */; };
+		11FE14371FD88D3600BF389E /* AskQuestionPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14361FD88D3600BF389E /* AskQuestionPage.swift */; };
+		11FE14391FD88DA800BF389E /* SecondaryBasePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FE14381FD88DA800BF389E /* SecondaryBasePage.swift */; };
+		6C2108F4A11BB2AAB5AA1BD3 /* Pods_Quora.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BA44810D820A145FD7277E7 /* Pods_Quora.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		11FE14071FD864CD00BF389E /* Quora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quora.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11FE140A1FD864CD00BF389E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11FE140F1FD864CD00BF389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11FE14111FD864CD00BF389E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11FE14141FD864CD00BF389E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11FE14161FD864CD00BF389E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11FE141C1FD8664000BF389E /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		11FE14201FD866AB00BF389E /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		11FE14221FD866C000BF389E /* AnswerListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerListPage.swift; sourceTree = "<group>"; };
+		11FE14241FD866D000BF389E /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		11FE14261FD866E500BF389E /* BasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePage.swift; sourceTree = "<group>"; };
+		11FE142A1FD86E7D00BF389E /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		11FE142C1FD86F6C00BF389E /* BookmarkTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkTableViewController.swift; sourceTree = "<group>"; };
+		11FE142E1FD8712800BF389E /* NewQuestionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewQuestionTableViewController.swift; sourceTree = "<group>"; };
+		11FE14301FD8757500BF389E /* QuestionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
+		11FE14321FD87A1F00BF389E /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		11FE14341FD87AB600BF389E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		11FE14361FD88D3600BF389E /* AskQuestionPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskQuestionPage.swift; sourceTree = "<group>"; };
+		11FE14381FD88DA800BF389E /* SecondaryBasePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryBasePage.swift; sourceTree = "<group>"; };
+		6B88B6920CB92F5D7005EE2B /* Pods-Quora.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quora.release.xcconfig"; path = "Pods/Target Support Files/Pods-Quora/Pods-Quora.release.xcconfig"; sourceTree = "<group>"; };
+		7BA44810D820A145FD7277E7 /* Pods_Quora.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Quora.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C08647EEFD34ED30D5F3C1EE /* Pods-Quora.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Quora.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Quora/Pods-Quora.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11FE14041FD864CC00BF389E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2108F4A11BB2AAB5AA1BD3 /* Pods_Quora.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FE13FE1FD864CC00BF389E = {
+			isa = PBXGroup;
+			children = (
+				11FE14091FD864CD00BF389E /* Quora */,
+				11FE14081FD864CD00BF389E /* Products */,
+				BDDE140387F9E8AB9A406994 /* Pods */,
+				20D7AD4DF3D360528ECEED6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11FE14081FD864CD00BF389E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11FE14071FD864CD00BF389E /* Quora.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11FE14091FD864CD00BF389E /* Quora */ = {
+			isa = PBXGroup;
+			children = (
+				11FE141F1FD8669A00BF389E /* Page */,
+				11FE141E1FD8664600BF389E /* Controllers */,
+				11FE140A1FD864CD00BF389E /* AppDelegate.swift */,
+				11FE140E1FD864CD00BF389E /* Main.storyboard */,
+				11FE14111FD864CD00BF389E /* Assets.xcassets */,
+				11FE14131FD864CD00BF389E /* LaunchScreen.storyboard */,
+				11FE14161FD864CD00BF389E /* Info.plist */,
+				11FE14321FD87A1F00BF389E /* Extensions.swift */,
+				11FE14341FD87AB600BF389E /* Constants.swift */,
+			);
+			path = Quora;
+			sourceTree = "<group>";
+		};
+		11FE141E1FD8664600BF389E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11FE141C1FD8664000BF389E /* TabBarController.swift */,
+				11FE142A1FD86E7D00BF389E /* FeedTableViewController.swift */,
+				11FE142C1FD86F6C00BF389E /* BookmarkTableViewController.swift */,
+				11FE142E1FD8712800BF389E /* NewQuestionTableViewController.swift */,
+				11FE14301FD8757500BF389E /* QuestionTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		11FE141F1FD8669A00BF389E /* Page */ = {
+			isa = PBXGroup;
+			children = (
+				11FE14261FD866E500BF389E /* BasePage.swift */,
+				11FE14381FD88DA800BF389E /* SecondaryBasePage.swift */,
+				11FE14201FD866AB00BF389E /* HomePage.swift */,
+				11FE14221FD866C000BF389E /* AnswerListPage.swift */,
+				11FE14241FD866D000BF389E /* ProfilePage.swift */,
+				11FE14361FD88D3600BF389E /* AskQuestionPage.swift */,
+			);
+			path = Page;
+			sourceTree = "<group>";
+		};
+		20D7AD4DF3D360528ECEED6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BA44810D820A145FD7277E7 /* Pods_Quora.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDDE140387F9E8AB9A406994 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C08647EEFD34ED30D5F3C1EE /* Pods-Quora.debug.xcconfig */,
+				6B88B6920CB92F5D7005EE2B /* Pods-Quora.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11FE14061FD864CC00BF389E /* Quora */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11FE14191FD864CD00BF389E /* Build configuration list for PBXNativeTarget "Quora" */;
+			buildPhases = (
+				A2DCCBBCB6ADA05019CAF7DE /* [CP] Check Pods Manifest.lock */,
+				11FE14031FD864CC00BF389E /* Sources */,
+				11FE14041FD864CC00BF389E /* Frameworks */,
+				11FE14051FD864CC00BF389E /* Resources */,
+				3274D60C938F4889A88864DE /* [CP] Embed Pods Frameworks */,
+				8638A9D5180A656D7F227B2B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quora;
+			productName = Quora;
+			productReference = 11FE14071FD864CD00BF389E /* Quora.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11FE13FF1FD864CC00BF389E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Mirzhan Gumarov";
+				TargetAttributes = {
+					11FE14061FD864CC00BF389E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 11FE14021FD864CC00BF389E /* Build configuration list for PBXProject "Quora" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11FE13FE1FD864CC00BF389E;
+			productRefGroup = 11FE14081FD864CD00BF389E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11FE14061FD864CC00BF389E /* Quora */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11FE14051FD864CC00BF389E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE14151FD864CD00BF389E /* LaunchScreen.storyboard in Resources */,
+				11FE14121FD864CD00BF389E /* Assets.xcassets in Resources */,
+				11FE14101FD864CD00BF389E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3274D60C938F4889A88864DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quora/Pods-Quora-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8638A9D5180A656D7F227B2B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Quora/Pods-Quora-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2DCCBBCB6ADA05019CAF7DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11FE14031FD864CC00BF389E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11FE14231FD866C000BF389E /* AnswerListPage.swift in Sources */,
+				11FE14271FD866E500BF389E /* BasePage.swift in Sources */,
+				11FE141D1FD8664000BF389E /* TabBarController.swift in Sources */,
+				11FE142F1FD8712800BF389E /* NewQuestionTableViewController.swift in Sources */,
+				11FE142D1FD86F6C00BF389E /* BookmarkTableViewController.swift in Sources */,
+				11FE142B1FD86E7D00BF389E /* FeedTableViewController.swift in Sources */,
+				11FE14251FD866D000BF389E /* ProfilePage.swift in Sources */,
+				11FE14311FD8757500BF389E /* QuestionTableViewController.swift in Sources */,
+				11FE14211FD866AB00BF389E /* HomePage.swift in Sources */,
+				11FE14331FD87A1F00BF389E /* Extensions.swift in Sources */,
+				11FE140B1FD864CD00BF389E /* AppDelegate.swift in Sources */,
+				11FE14351FD87AB600BF389E /* Constants.swift in Sources */,
+				11FE14391FD88DA800BF389E /* SecondaryBasePage.swift in Sources */,
+				11FE14371FD88D3600BF389E /* AskQuestionPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		11FE140E1FD864CD00BF389E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE140F1FD864CD00BF389E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11FE14131FD864CD00BF389E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11FE14141FD864CD00BF389E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11FE14171FD864CD00BF389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11FE14181FD864CD00BF389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11FE141A1FD864CD00BF389E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C08647EEFD34ED30D5F3C1EE /* Pods-Quora.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y3M88HBJ;
+				INFOPLIST_FILE = Quora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmirzhan.Quora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11FE141B1FD864CD00BF389E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B88B6920CB92F5D7005EE2B /* Pods-Quora.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C2Y3M88HBJ;
+				INFOPLIST_FILE = Quora/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gmirzhan.Quora;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11FE14021FD864CC00BF389E /* Build configuration list for PBXProject "Quora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE14171FD864CD00BF389E /* Debug */,
+				11FE14181FD864CD00BF389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11FE14191FD864CD00BF389E /* Build configuration list for PBXNativeTarget "Quora" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11FE141A1FD864CD00BF389E /* Debug */,
+				11FE141B1FD864CD00BF389E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11FE13FF1FD864CC00BF389E /* Project object */;
+}
